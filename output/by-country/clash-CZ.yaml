@@ -5,20 +5,20 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇨🇿 捷克 (Czech) 01 - xiaohe
-  server: 104.21.22.180
+  server: 104.21.96.1
   port: 443
   udp: true
   type: vless
-  uuid: 33918b20-9e02-4dc6-8b30-79b2d4b2e0e6
+  uuid: 0836463b-214f-4af6-aa85-85a56a62388e
   tls: true
-  servername: aUto-scaLe-238B2B.inFra-coRE-1630dD.WorKerS.DeV
+  servername: D2127A49-Flat-WOoD-c4b5.Milia-AKbaRpOor.workers.Dev
   skip-cert-verify: false
   client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /eyJqdW5rIjoiUjJBU3JkVlRwSWtnciIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbImJwYi55b3VzZWYuaXNlZ2Fyby5jb20iXX0
+    path: /
     headers:
-      Host: aUto-scaLe-238B2B.inFra-coRE-1630dD.WorKerS.DeV
+      Host: D2127A49-Flat-WOoD-c4b5.Milia-AKbaRpOor.workers.Dev
 proxy-groups:
 - name: PROXIES
   type: select
