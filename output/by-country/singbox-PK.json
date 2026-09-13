@@ -5,24 +5,26 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇨🇿 捷克 (Czech) 01 - xiaohe",
-      "server": "104.21.96.1",
-      "server_port": 443,
-      "uuid": "0836463b-214f-4af6-aa85-85a56a62388e",
+      "tag": "🇵🇰 巴基斯坦 (Pakistan) 01 - xiaohe",
+      "server": "64.49.38.3",
+      "server_port": 8443,
+      "uuid": "dca76b88-b038-e82b-45e1-1d76b476d7ca",
       "tls": {
         "enabled": true,
-        "server_name": "D2127A49-Flat-WOoD-c4b5.Milia-AKbaRpOor.workers.Dev",
-        "insecure": false,
+        "server_name": "download.nvidia.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "JeVpfwIwteGa8xfysPJUzrbHgmOPyLGomRqyH8Pi7W0",
+          "short_id": ""
         }
       },
       "transport": {
-        "type": "ws",
-        "headers": {
-          "Host": "D2127A49-Flat-WOoD-c4b5.Milia-AKbaRpOor.workers.Dev"
-        }
+        "type": "grpc",
+        "service_name": "TunService"
       }
     },
     {
@@ -30,14 +32,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇨🇿 捷克 (Czech) 01 - xiaohe"
+        "🇵🇰 巴基斯坦 (Pakistan) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇨🇿 捷克 (Czech) 01 - xiaohe"
+        "🇵🇰 巴基斯坦 (Pakistan) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
