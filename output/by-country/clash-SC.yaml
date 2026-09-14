@@ -19,6 +19,21 @@ proxies:
   grpc-opts:
     grpc-service-name: TunService
 - name: 🇸🇨 塞舌尔 (Seychelles) 02 - xiaohe
+  server: 104.21.78.225
+  port: 443
+  udp: true
+  type: vless
+  uuid: 4ce7cb8a-f9b1-4bfa-a80d-9e168c61a633
+  tls: true
+  servername: curly-night-6928.ggdhchjk.workers.dev
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /sync
+    headers:
+      Host: curly-night-6928.ggdhchjk.workers.dev
+- name: 🇸🇨 塞舌尔 (Seychelles) 03 - xiaohe
   server: hk3n.wxgqlfx.vip
   port: 35193
   udp: true
@@ -38,6 +53,7 @@ proxy-groups:
   - AUTO
   - 🇸🇨 塞舌尔 (Seychelles) 01 - xiaohe
   - 🇸🇨 塞舌尔 (Seychelles) 02 - xiaohe
+  - 🇸🇨 塞舌尔 (Seychelles) 03 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -45,5 +61,6 @@ proxy-groups:
   proxies:
   - 🇸🇨 塞舌尔 (Seychelles) 01 - xiaohe
   - 🇸🇨 塞舌尔 (Seychelles) 02 - xiaohe
+  - 🇸🇨 塞舌尔 (Seychelles) 03 - xiaohe
 rules:
 - MATCH,PROXIES
