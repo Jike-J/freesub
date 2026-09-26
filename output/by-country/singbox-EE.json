@@ -46,7 +46,7 @@
       "tls": {
         "enabled": true,
         "server_name": "cabinet.wwwinternetvideo.click",
-        "insecure": true
+        "insecure": false
       }
     },
     {
@@ -61,7 +61,7 @@
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         }
       }
     },
