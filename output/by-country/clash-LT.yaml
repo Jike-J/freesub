@@ -4,30 +4,30 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇮🇪 爱尔兰 (Ireland) 01 - xiaohe
-  server: 3.9.135.156
-  port: 51847
+- name: 🇱🇹 立陶宛 (Lithuania) 01 - xiaohe
+  server: 94.176.234.161
+  port: 443
   udp: true
   type: vless
-  uuid: 391a01e9-b664-407b-9158-610fab3f5920
+  uuid: d448490d-4ee6-442f-80e1-5e1c186c4ce1
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
-    public-key: S6noV0L8eNASnTe1gXLutLZNdfENsvKMsOJiGQYi6nc
-    short-id: 0eec442e7b34d2f2
-  servername: www.tesla.com
+    public-key: UpI0XKNUsMJ24XawPQ8g7br1faEsO7BOvmIIGg9Wrm8
+    short-id: dbb2ef1c7c
+  servername: www.intel.com
   client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇮🇪 爱尔兰 (Ireland) 01 - xiaohe
+  - 🇱🇹 立陶宛 (Lithuania) 01 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇮🇪 爱尔兰 (Ireland) 01 - xiaohe
+  - 🇱🇹 立陶宛 (Lithuania) 01 - xiaohe
 rules:
 - MATCH,PROXIES

@@ -5,27 +5,22 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇨🇿 捷克 (Czech) 01 - xiaohe",
-      "server": "104.21.69.37",
+      "tag": "🇱🇹 立陶宛 (Lithuania) 01 - xiaohe",
+      "server": "94.176.234.161",
       "server_port": 443,
-      "uuid": "911b84e1-d046-4fbf-bfc0-c168791115ef",
+      "uuid": "d448490d-4ee6-442f-80e1-5e1c186c4ce1",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "12ygbae0k3gn0z0f.mehrshadhaddadi8.workers.dev",
-        "insecure": false,
-        "alpn": [
-          "http/1.1"
-        ],
+        "server_name": "www.intel.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/vl/uWq9DFRgj8BwQiSXmZ46",
-        "headers": {
-          "Host": "12ygbae0k3gn0z0f.mehrshadhaddadi8.workers.dev"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "UpI0XKNUsMJ24XawPQ8g7br1faEsO7BOvmIIGg9Wrm8",
+          "short_id": "dbb2ef1c7c"
         }
       }
     },
@@ -34,14 +29,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇨🇿 捷克 (Czech) 01 - xiaohe"
+        "🇱🇹 立陶宛 (Lithuania) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇨🇿 捷克 (Czech) 01 - xiaohe"
+        "🇱🇹 立陶宛 (Lithuania) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
