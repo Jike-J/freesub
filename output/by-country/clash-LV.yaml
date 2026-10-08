@@ -5,7 +5,7 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇱🇻 拉脱维亚 (Latvia) 01 - xiaohe
-  server: 104.165.205.46
+  server: lv02.gotosvo.com
   port: 9443
   udp: true
   type: hysteria2
